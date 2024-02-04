@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sidebar #logo img{
+    width: 45%;
+    filter: contrast(2);
+    margin: 15% 0 15% 8%;
+}
+.sidebar button{
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: rgba(240, 248, 255, 0.878);
+    margin-bottom: 2%;
+    margin-left: 5%;
+    text-align: left;
+    width: 90%;
+    height: 6%;
+    transition: 0.5s ease;
+}
+.sidebar button:hover{
+    background-color: rgba(176, 179, 179, 0.179);
+    cursor: pointer;
+}
+.sidebar button span{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: .85;
+}
+.profile{
+    width: 85%;
+    padding-top: 5vh;
+    height: 100vh;
+    overflow-y: auto;
+    padding-left: 10%;
+    /* border: 1px solid red; */
+}
+.profile .prf{
+    display: flex;
+}
+.profile #dp{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 4% auto;
+}
+#dp img{
+    width: 100%;
+}
+#about{
+    width: 70%;
+    /* border: 1px solid red; */
+}
+.topbar span{
+    font-size: 1.3rem;
+}
+.topbar button{
+    background-color: #363636;
+    border: none;
+    font-size: 16px;
+    width: 110px;
+    padding: 2px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+.midbar{
+    margin-top: 3%;
+}
+.midbar span{
+    font-size: 18px;
+    margin-right: 5%;
+}
+.btmbar{
+    margin-top: 3%;
+}
+.btmbar h4{
+    margin-bottom: 1%;
+}
+#links{
+    margin-top: 1%;
+}
+#links a{
+    color: #7bcbff;
+}
+/* .memories{
+    
+} */
+#line{
+    width: 90.5%;
+    background: rgba(255, 255, 255, 0.315);
+    height: 1px;
+    margin-bottom: 8%;
+}
+.posts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.posts #box{
+    width: 30%;
+    aspect-ratio: 1/1;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+#box img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+#reach{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
